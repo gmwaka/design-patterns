@@ -1,5 +1,4 @@
 from models.iphone import Iphone
-# from models.iphone_simple_factory import IphoneSimpleFactory
 from factory.iphone_simple_factory import IphoneSimpleFactory
 
 
