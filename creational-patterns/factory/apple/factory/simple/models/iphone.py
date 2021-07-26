@@ -1,7 +1,7 @@
-from abc import abstractmethod
+from abc import abstractmethod, ABCMeta
 
 
-class Iphone:
+class Iphone(metaclass=ABCMeta):
     @abstractmethod
     def getHardware(self) -> None:
         pass

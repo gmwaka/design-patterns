@@ -1,5 +1,5 @@
 from models.store import Store
-from models.iphone_simple_factory import IphoneSimpleFactory
+from factory.iphone_simple_factory import IphoneSimpleFactory
 
 
 if __name__ == "__main__":
